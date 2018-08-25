@@ -2,21 +2,21 @@
 PHP MVO Framework Starter Pack
 ___
 ```post('')``` ile gelen post değerini alabilirsin ve ```if(post('submit'))``` tazı şeylerde olabilir. get için 
-get('parametre');
+```get('parametre')```
 
-$_url değişkeni bir dizidir. site.com/MVO/kayit/yeni ise $_url[0] = kayit, $_url[1] = yeni olur.
+```$_url``` değişkeni bir dizidir. site.com/MVO/kayit/yeni ise ```$_url[0] = kayit```, ```$_url[1] = yeni``` olur.
 
-require view ('index') ile view dosyasındaki index.php yi çeker.
+```require view ('index')``` ile view dosyasındaki index.php yi çeker.
 
 controller'e otomatik php dosyası oluşturulursa örnek yeniyazilar.php adres satırı site.com/MVO/yeniyazilar olur.
 
-session('sehir', 'hamsi'); ile sehir adlı sessiona hamsi değeri verilir.
+```session('sehir', 'hamsi')``` ile sehir adlı sessiona hamsi değeri verilir.
 
-ifsession('sehir') ile hem if yapısı içerisinde kontrol edilir, hemde değeri döndürür.
+```ifsession('sehir')``` ile hem if yapısı içerisinde kontrol edilir, hemde değeri döndürür.
 
-permalink('Lan Birşeyler Oluyor') u adres satırında link yapmak için düzenler lan-birseyler-oluyor
+```permalink('Lan Birşeyler Oluyor')``` u adres satırında link yapmak için düzenler > > > lan-birseyler-oluyor
 
-Viewdeki Static headerda Dosyalara ulaşmak için asset_url('styles/style.css') yazılabilir.
+Viewdeki Static headerda Dosyalara ulaşmak için ```asset_url('styles/style.css')``` yazılabilir.
 
 
 ___
