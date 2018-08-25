@@ -1,7 +1,7 @@
 # FrameMago
 PHP MVO Framework Starter Pack
 ___
-post('') ile gelen post değerini alabilirsin ve if(post('submit')) tazı şeylerde olabilir. get için 
+```post('')``` ile gelen post değerini alabilirsin ve ```if(post('submit'))``` tazı şeylerde olabilir. get için 
 get('parametre');
 
 $_url değişkeni bir dizidir. site.com/MVO/kayit/yeni ise $_url[0] = kayit, $_url[1] = yeni olur.
