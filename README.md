@@ -1,5 +1,5 @@
 # FrameMago
-PHP MVO Framework Starter Pack
+PHP MVC Framework Starter Pack
 ___
 ```post('')``` ile gelen post değerini alabilirsin ve ```if(post('submit'))``` tazı şeylerde olabilir. get için 
 ```get('parametre')```
